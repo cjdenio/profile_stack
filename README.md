@@ -102,12 +102,13 @@ jobs:
 
 You can also configure the following when declaring your action:
 
-| **Key**            | **Example Value** | **Description**                                               |
-| ------------------ | ----------------- | ------------------------------------------------------------- |
+| **Key**          | **Example Value** | **Description**                                               |
+| ---------------- | ----------------- | ------------------------------------------------------------- |
 | `path`             | config/stack.yml  | The path in your repository where the config file is located  |
-| `badges`           | `false`           | Don't have badges, just plain old urls                        |
+| `badges`           | false             | Don't have badges, just plain old urls                        |
 | `technology_emoji` | 👨🏻‍💻                | The emoji to be displayed to the left of the Technology title |
 | `project_emoji`    | ✨                | The emoji to be displayed to the left of the Project title    |
+| `badge_style`      | flat              | The [Shields.IO style](https://shields.io#styles) that you'd like to be applied to your badges. |
 
 ## 💻 Contributing
 
